@@ -1,0 +1,95 @@
+.container-header {
+  width: 100vw;
+  height: 997px;
+  left: 0px;
+  top: 0px;
+  padding: 70px 56px;
+
+  background: #000000;
+}
+
+/* .img {
+  width: 907px;
+  height: 1360.5px;
+  left: 218px;
+  top: 100px;
+  background-image: url(../../images/Kanu_G.png);
+  background-repeat: no-repeat;
+  opacity: 0.6;
+} */
+
+.title {
+  position: absolute;
+  width: 744.07px;
+  height: 278px;
+  left: 689px;
+  top: 349px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 86.6874px;
+  line-height: 160%;
+  /* or 139px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.subtitle {
+  position: absolute;
+  width: 509.64px;
+  height: 24.52px;
+  left: 769.88px;
+  top: 632.48px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28.0213px;
+  line-height: 33px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.title-two {
+  position: absolute;
+  width: 744.07px;
+  height: 102px;
+  left: 689px;
+  top: 700.64px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 86.6874px;
+  line-height: 102px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.scrolldown {
+  position: absolute;
+  width: 266.2px;
+  height: 24.52px;
+  left: 689px;
+  top: 824.38px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21.0159px;
+  line-height: 20px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}

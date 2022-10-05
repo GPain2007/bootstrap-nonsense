@@ -1,0 +1,542 @@
+.navbar {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 70px 56px;
+}
+.menu-bars {
+  color: aliceblue;
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: black;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+/* .nav-text a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  border-radius: 4px;
+  left: 280px;
+} */
+/* .nav-text a:hover {
+  color: yellow;
+} */
+
+/* .nav-menu-items {
+  width: 100%;
+}
+
+.nav-toggle {
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+} */
+/* 
+.home {
+  position: absolute;
+  width: 110px;
+  height: 42px;
+  left: 256px;
+  top: 128px;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36.5814px;
+  line-height: 42px;
+  /* identical to box height */
+
+/* text-align: center;
+
+  color: #ffffff;
+} */
+.our-services {
+  position: absolute;
+  width: 276px;
+  height: 42px;
+  left: 257px;
+  top: 191px;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36.5814px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* landing page color 3 */
+
+  color: #ffffff;
+}
+.careers {
+  position: absolute;
+  width: 153px;
+  height: 42px;
+  left: 257px;
+  top: 254px;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36.5814px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.cases-results {
+  position: absolute;
+  width: 346px;
+  height: 42px;
+  left: 256px;
+  top: 317px;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36.5814px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.our-team {
+  position: absolute;
+  width: 193px;
+  height: 42px;
+  left: 257px;
+  top: 380px;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36.5814px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.insights {
+  position: absolute;
+  width: 173px;
+  height: 42px;
+  left: 257px;
+  top: 443px;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36.5814px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* landing page color 3 */
+
+  color: #ffffff;
+}
+
+.office-locations {
+  position: absolute;
+  width: 354px;
+  height: 42px;
+  left: 256px;
+  top: 506px;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36.5814px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* landing page color 3 */
+
+  color: #ffffff;
+}
+
+.instagram {
+  position: absolute;
+  left: 522px;
+  top: 578.3px;
+  bottom: 8.54%;
+  color: #d2b202;
+  size: 40rem;
+}
+
+.facebook {
+  position: absolute;
+  left: 479px;
+  top: 578.3px;
+  bottom: 8.54%;
+  color: #d2b202;
+}
+
+.linkedin {
+  position: absolute;
+  left: 562px;
+  top: 578.3px;
+  bottom: 8.54%;
+  color: #d2b202;
+}
+.our-services-box {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 262px;
+  height: 314px;
+  left: 644px;
+  top: 191px;
+
+  background: #090909;
+  opacity: 0.55;
+  border: 1px solid #454545;
+  box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.85);
+}
+.about-us {
+  position: relative;
+  width: 101px;
+  height: 46px;
+  left: 23px;
+  top: 17px;
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24.4014px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  z-index: 1000;
+  text-decoration: none;
+}
+.practice-area {
+  position: absolute;
+  width: 158px;
+  height: 28px;
+  left: 16px;
+  top: 64.012px;
+
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24.4014px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+h4 {
+  position: absolute;
+  width: 278.24px;
+  height: 23px;
+  left: 479px;
+  top: 680px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.2877px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: #d2b202;
+}
+
+.phone {
+  position: absolute;
+  width: 249.95px;
+  height: 23px;
+  left: 479px;
+  top: 732px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.2877px;
+  line-height: 147.19%;
+  display: flex;
+  color: #d2b202;
+}
+.email {
+  position: absolute;
+  width: 250px;
+  height: 23px;
+  left: 479px;
+  top: 758px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.2877px;
+  line-height: 147.19%;
+  display: flex;
+  color: #d2b202;
+}
+.fax {
+  position: absolute;
+  width: 183.45px;
+  height: 23px;
+  left: 479px;
+  top: 783.98px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.2877px;
+  line-height: 147.19%;
+  color: #d2b202;
+}
+
+.contact-us {
+  position: absolute;
+  width: 193px;
+  height: 34px;
+  left: 1201px;
+  top: 778px;
+  text-decoration: none;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+
+  color: #d2b202;
+}
+
+.current-opp {
+  position: absolute;
+  width: 234px;
+  height: 28px;
+  left: 20px;
+  top: 42px;
+
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24.4014px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.art-program {
+  position: absolute;
+  width: 188px;
+  height: 28px;
+  left: 20px;
+  top: 84.02px;
+
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24.4014px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.student-intern {
+  position: absolute;
+  width: 199px;
+  height: 28px;
+  left: 20px;
+  top: 133.05px;
+
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24.4014px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.news {
+  position: absolute;
+  width: 199px;
+  height: 28px;
+  left: 20px;
+  top: 42px;
+
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24.4014px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.events {
+  position: absolute;
+  width: 199px;
+  height: 28px;
+  left: 20px;
+  top: 84.02px;
+
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24.4014px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.articles {
+  position: absolute;
+  width: 199px;
+  height: 28px;
+  left: 20px;
+  top: 133.05px;
+
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24.4014px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.abuja {
+  position: absolute;
+  width: 199px;
+  height: 28px;
+  left: 20px;
+  top: 42px;
+
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24.4014px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.community {
+  position: absolute;
+  width: 199px;
+  height: 28px;
+  left: 20px;
+  top: 84.02px;
+
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24.4014px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.calabar {
+  position: absolute;
+  width: 199px;
+  height: 28px;
+  left: 20px;
+  top: 133.05px;
+
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24.4014px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.uyo {
+  position: absolute;
+  width: 199px;
+  height: 28px;
+  left: 20px;
+  top: 183.05px;
+
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24.4014px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}

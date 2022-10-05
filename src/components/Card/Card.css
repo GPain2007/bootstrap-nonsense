@@ -1,0 +1,42 @@
+.card {
+  align-items: center;
+  width: 442px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 620px;
+
+  /* line-height: 2rem; */
+  margin-bottom: 101px;
+}
+
+.card-image img {
+  width: 437px;
+}
+
+.card-title,
+.description {
+  text-align: left;
+  margin: 0;
+  padding: 10px;
+  width: 437px;
+}
+
+.card-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29.5219px;
+  line-height: 92%;
+}
+.description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.5333px;
+  line-height: 160%;
+  /* or 25px */
+
+  color: #000000;
+}
